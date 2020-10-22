@@ -1,3 +1,4 @@
+
 import xml.etree.ElementTree as ET
 import sqlite3
 
@@ -31,7 +32,7 @@ CREATE TABLE Track (
 ''')
 
 
-fname = input('Enter file name: ')
+fname = 'Library.xml'
 if ( len(fname) < 1 ) : fname = 'Library.xml'
 
 # <key>Track ID</key><integer>369</integer>
